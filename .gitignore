@@ -1,0 +1,41 @@
+# Build outputs and downloaded compiler
+build/
+bin/
+obj/
+packages/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.nupkg
+
+# IDE and OS files
+.vs/
+.idea/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+
+# Local Codex data and application state
+.codex/
+sessions/
+archived_sessions/
+auth.json
+session_index.jsonl
+usage-cache.json
+window-state*.txt
+*.runtime.txt
+*.log
+*.log.*
+*.sqlite*
+*.jsonl
+*.csv
+.env
+.env.*
+
+# Local development work and backups
+work/
+backup/
+backups/
+*.bak
